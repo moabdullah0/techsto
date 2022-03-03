@@ -58,13 +58,7 @@ section .collapse .ss4{
 section .collapse .ss4:hover{
 transform: translateY(20%);
 }
-section .textbrand{
-    transition: all 1s ;
-    cursor: pointer;
-}
-section .textbrand :hover{
-    transform: translateY(20%);
-}
+
 section .img1{
     transition: all 0.5s;
     cursor: pointer;
