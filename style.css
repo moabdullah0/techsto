@@ -1,5 +1,5 @@
 section .nabvbar{
-    background: linear-gradient(#151718 #160DC3);
+  
 }
 
 
@@ -11,7 +11,7 @@ section .navbar-brand{
 font-family: 'Rubik', sans-serif;
 font-family: 'Kaushan Script', cursive;
 font-weight: bold;
-
+transition: all 0.5s;
 }
 section .s1{
     font-family: 'Poppins', sans-serif;
@@ -20,3 +20,75 @@ section .s1{
     font-family: 'Kaushan Script', cursive;
 }
 
+section .navbar-brand:hover{
+    transform: translateY(10%);
+}
+section .collapse{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 200;
+    transition: all 0.5s;
+}
+section .collapse .ss1{
+    transition: all 0.5s
+}
+section .collapse .ss1:hover{
+transform: translateY(20%);
+}
+section .collapse .ss2{
+   
+    transition: all 0.5s;
+}
+section .collapse .ss2:hover{
+transform: translateY(20%);
+}
+section .collapse .ss3{
+  
+    transition: all 0.5s;
+}
+section .collapse .ss3:hover{
+transform: translateY(20%);
+}
+section .collapse .ss4{
+   
+    transition: all 0.5s;
+}
+section .collapse .ss4:hover{
+transform: translateY(20%);
+}
+section .textbrand{
+    transition: all 1s ;
+    cursor: pointer;
+}
+section .textbrand :hover{
+    transform: translateY(20%);
+}
+section .img1{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section .img1:hover{
+    transform: translateX(20%);
+}
+section .slid1{
+   transition: all 0.3s;
+   cursor: pointer;
+}
+section .slid1:hover{
+    transform: translateY(10%);
+}
+section .slid2{
+    transition: all 0.3s;
+    cursor: pointer;
+ }
+ section .slid2:hover{
+     transform: translateY(10%);
+ }
+ section .slid3{
+    transition: all 0.3s;
+ }
+ section .slid3:hover{
+     transform: translateY(10%);
+ }
