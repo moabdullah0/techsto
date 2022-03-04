@@ -1,20 +1,26 @@
-section  .ss1{
-    transition: all 0.5s
-}
-section  .ss1:hover{
-transform: translateY(20%);
-}
-section .ss2{
-   
-    transition: all 0.5s;
-}
-section  .ss2:hover{
-transform: translateY(20%);
-}
-section  .ss3{
-  
-    transition: all 0.5s;
-}
-section  .ss3:hover{
-transform: translateY(20%);
+
+@media (min-width:1200px ){
+    .contaner{
+        width: 1170px;
+    }
+    section  .ss1{
+        transition: all 0.5s
+    }
+    section  .ss1:hover{
+    transform: translateY(20%);
+    }
+    section .ss2{
+       
+        transition: all 0.5s;
+    }
+    section  .ss2:hover{
+    transform: translateY(20%);
+    }
+    section  .ss3{
+      
+        transition: all 0.5s;
+    }
+    section  .ss3:hover{
+    transform: translateY(20%);
+    }
 }
