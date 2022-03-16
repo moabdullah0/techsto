@@ -109,16 +109,28 @@ section .collapse{
     background-size: cover;
     background-position: center;
     width: 100%;
-    background-image: url(images/studying.jpg);
+    background-image: url(images/laptop.jpg);
     }
     .iamges12{
         position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        top: 0;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        background-image: url(images/search11.jpg)
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-image: url(images/studying.jpg);
         }
+
+.iamges13{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-image: url(images/search11.jpg)
+}
