@@ -1,5 +1,5 @@
-section .nabvbar{
-  
+.nabvbar{
+  font-style: ;
 }
 
 
@@ -9,7 +9,7 @@ section .navbar-brand{
     font-family: 'Poppins', sans-serif;
 
 font-family: 'Rubik', sans-serif;
-font-family: 'Kaushan Script', cursive;
+
 font-weight: bold;
 transition: all 0.5s;
 }
@@ -92,3 +92,31 @@ section .collapse{
          }
     }
 
+.carousel-item{
+    height: 32rem;
+    background-color: rgb(186, 198, 204);
+  
+   background-size: cover;
+
+   
+}
+.iamges11{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    }
+    .iamges12{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        }

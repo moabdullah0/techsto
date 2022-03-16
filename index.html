@@ -15,8 +15,8 @@
 <body>
     <!--NAvbar-->
     <section id="Tech">
-        <div class="contaner ">
-            <nav class="navbar navbar-expand-lg navbar-info bg-dark  fixed-top">
+       <!-- <div class="contaner ">
+            <nav class="navbar navbar-expand-lg text-info bg-dark  fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand mx-3" href="#">Tech Storm</a>
                   <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,29 +40,77 @@
                   </div>
                 </div>
               </nav>
-        </div>
+        </div>-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info  fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand text-black" href="#">Tech Storm</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ms-auto mx-4">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark ss1" aria-current="page" href="#Tech">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss2" href="#select">Choose The Year</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss3" href="#Social">Social media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss4" href="login.html">Log In</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     </section>
 
     <!--End NAVBAR-->
-<section class="bg-dark text-center text-light  text-sm-start py-5">
-    <div class="container">
-      <div class="d-flex ">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
 
-      
-        <div class="textbrand">
-            <h1 >Tech  <span class="text-info "> Storm</span>  </h1> 
-            <p class="">On this website, you will find the most important topics for the Faculty of Informatics Engineering</p>
-          
+        <div class="iamges11 " style="background-image: url(images/laptop.jpg);"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-black">قريباً سيتم تحديث الموقع</h5>
+            <p> </p>
+           <a href="login.html"class="btn btn-info btn-lg">Get Started</a> 
             
+          </div>
         </div>
-        <img src="images/main.svg" class="a-sm-block img-fluid w-50 img1 " alt="">
-    </div> 
+        <div class="carousel-item">
+          <div class="iamges11 " style="background-image: url(images/studying.jpg);"></div>
+          <div class="carousel-caption d-none d-md-block">
+           
+            <p></p>
+             
+          </div>
         </div>
-
-
-       
+        <div class="carousel-item">
+          <div class="iamges12 " style="background-image: url(images/search11.jpg);"></div>
+          <div class="carousel-caption d-none d-md-block">
+          
+            <p></p>
+           
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</section>
 <!--MAin-->
 <section class="text-center " id="select">
     <div class="container my-5 py-5 ">
@@ -175,12 +223,7 @@
     </div>
 </section >
 
-<footer class=""  ></footer>
-<div class="container text-center bg-dark text-white " >
-  <p class="lead">
-    copytight &copy; 2022 Mohammed Alibrahim
-  </p>
-</div>
+
 <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
