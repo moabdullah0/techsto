@@ -109,6 +109,7 @@ section .collapse{
     background-size: cover;
     background-position: center;
     width: 100%;
+    background-image: url(images/studying.jpg);
     }
     .iamges12{
         position: absolute;
@@ -119,4 +120,5 @@ section .collapse{
         background-size: cover;
         background-position: center;
         width: 100%;
+        background-image: url(images/search11.jpg)
         }
