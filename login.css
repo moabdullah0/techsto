@@ -1,21 +1,246 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(images/laptop.jpg);
-    background-size: cover;
-    height: 100vh;
+	margin: 0;
+	padding: 0;
+	
+	
+	
+
   }
-  #login .container #login-row #login-column #login-box {
-    margin-top: 120px;
-    max-width: 600px;
-    height: 320px;
-    border: 1px solid #9C9C9C;
-    
-  }
-  #login .container #login-row #login-column #login-box #login-form {
-    padding: 20px;
-  }
-  #login .container #login-row #login-column #login-box #login-form #register-link {
-    margin-top: -85px;
-  }
+ 
+
   
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table thead tr {
+    background-color: #3684a3;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3684a3;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #3684a3;
+}
+.m388{
+	visibility: hidden;
+}
+.unhiden{
+	visibility: visible;
+}
+.m403{
+	visibility: hidden;
+}
+.unhiden4{
+	visibility: visible;
+}
+.styled-table{
+	transform: translateX(20%);
+}
+form .form-outline{
+	align-content: center;
+	margin-top: 20%;
+}
+.container{
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+body {
+	background: linear-gradient(90deg, #9cbcc9, #3684a3);	
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {		
+	background: linear-gradient(90deg, #98b2bd, #3684a3);		
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #3684a3;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #3684a3;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #3684a3, #3684a3);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #3684a3;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #3684a3;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #3684a3;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #3684a3;
+	box-shadow: 0px 2px 2px #3684a3;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #3684a3;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #3684a3;
+}
+
+.social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #329ec9;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}

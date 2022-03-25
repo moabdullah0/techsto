@@ -4,43 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
     <link rel="stylesheet" href="login.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+   
+    <link rel="stylesheet" href="css/bootstrap.css">
+<script defer src="mainth.js"></script>
+    <title>Document</title>
 </head>
 <body>
-  
-    <div id="login">
-        <h3 class="text-center text-info pt-5 ">Login</h3>
-        <div class="container">
-            <div id="login-row" class="row justify-content-center align-items-center">
-                <div id="login-column" class="col-md-6">
-                    <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="" method="post">
-                            <h3 class="text-center text-info">Login</h3>
-                            <div class="form-group">
-                                <label for="username" class="text-info">Username:</label><br>
-                                <input type="text" name="username" id="username" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="text-info">Password:</label><br>
-                                <input type="text" name="password" id="password" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
-                            </div>
-                            <div id="register-link" class="text-right">
-                                <a href="#" class="text-info">Register here</a>
-                            </div>
-                        </form>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" class="login__input username" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" class="login__input password" placeholder="Password">
+                    </div>
+                    <button class="button login__submit ">
+                        <span class="button__text btn">Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>				
+                </form>
+                <div class="social-login">
+                   
+                    <div class="social-icons">
+                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                        <a href="#" class="social-login__icon fab fa-twitter"></a>
                     </div>
                 </div>
             </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>		
         </div>
     </div>
+       
+      
+      
+      <!--Mohammed Alibrahim-->
+      <table class="styled-table m388 " lang="ar">
+        <thead>
+            <tr class="">
+                <th>الاسم</th>
+                <th>الرقم الجامعي</th>
+                <th>السنة الدراسية</th>
+                <th>نتائج امتحانات :2022</th>
+                <th>نظرية المعلومات</th>
+                <th>نظرية المخططات</th>
+                <th>رسوميات حاسوبية</th>
+                <th>خوارزميات 2 </th>
+                <th>معالجة الاشارة</th>
+                <th>قواعد معطيات 1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-light">
+                <td>محمد الابراهيم</td>
+                <td>388</td>
+                <td>الثالثة</td>
+                <td>2021/2022</td>
+                <td>71</td>
+                <td class="color-warning">49</td>
+                <td>50</td>
+                <td>74</td>
+                <td>61</td>
+                <td>74</td>
+               
+            </tr>
+           
+           
+            
+        </tbody>
+    </table>
+    <table class="styled-table m403 " lang="ar">
+        <thead>
+            <tr class="">
+                <th>الاسم</th>
+                <th>الرقم الجامعي</th>
+                <th>السنة الدراسية</th>
+                <th>نتائج امتحانات :</th>
+                <th>نظرية المعلومات</th>
+                <th>نظرية المخططات</th>
+                <th>رسوميات حاسوبية</th>
+                <th>خوارزميات 2 </th>
+                <th>معالجة الاشارة</th>
+                <th>قواعد معطيات 1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-light">
+                <td>أيوب عيسى الخطاب</td>
+                <td>403</td>
+                <td>الثالثة</td>
+                <td>2021/2022</td>
+                <td>71</td>
+                <td class="color-warning">49</td>
+                <td>50</td>
+                <td>74</td>
+                <td>61</td>
+                <td>74</td>
+               
+            </tr>
+           
+           
+            
+        </tbody>
+    </table>-->
+<!-- <table class="table table-dark m388">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        </tbody>
+    </table>-->
+<script src="js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
