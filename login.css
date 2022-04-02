@@ -53,6 +53,13 @@ body {
 .unhiden4{
 	visibility: visible;
 }
+.m420{
+	visibility: hidden;
+
+}
+.unhiden420{
+	visibility: visible;
+}
 .styled-table{
 	transform: translateX(20%);
 }

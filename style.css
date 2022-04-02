@@ -1,5 +1,5 @@
-.nabvbar{
-  
+.navbar1{
+  height: 150%;
 }
 
 
@@ -13,12 +13,7 @@ font-family: 'Rubik', sans-serif;
 font-weight: bold;
 transition: all 0.5s;
 }
-section .s1{
-    font-family: 'Poppins', sans-serif;
 
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Kaushan Script', cursive;
-}
 
 section .navbar-brand:hover{
     transform: translateY(10%);
@@ -92,45 +87,9 @@ section .collapse{
          }
     }
 
-.carousel-item{
-    height: 32rem;
-    background-color: rgb(186, 198, 204);
-  
-   background-size: cover;
 
-   
-}
-.iamges11{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-image: url(images/laptop.jpg);
-    }
-    .iamges12{
-        position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-image: url(images/studying.jpg);
-        }
-
-.iamges13{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-image: url(images/search11.jpg)
+.btn1{
+    box-shadow: none;
+    border: none;
+    border-radius: 20px 50px ;
 }
