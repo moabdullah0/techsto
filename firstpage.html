@@ -1,158 +1,842 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Bebas+Neue&family=Cairo:wght@600&family=Changa:wght@800&family=Kaushan+Script&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Rubik&family=Shrikhand&family=Work+Sans:ital,wght@0,400;0,600;1,300;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="firstbage.css">
+    <script defer src="main.js"></script>
+    <title>Tech Storm</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body >
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top " dir="rtl" lang="ar">
-    <div class="container-fluid ms-auto">
-     
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mt-1 mx-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">من نحن؟</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#learning">آلية التعلم</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#question">الاسئلة الشائعة</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#Social">حساباتنا</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</section>
-<section id="banner" class="text-center">
-  <div class="container flex">
-    <div class="d-flex">
-    <div class="row">
-      <div class="col-md-6">
-        <p class="promo-title">Tech <span class="info">Storm</span></p>
-        <p class="descripton">
-منصة تعليمية موجهة لطلاب كلية الهندسة المعلوماتية في جامعة حلب في المناطق المحررة تستطيع من خلالها الوصول الى جميع مقررات واسئلة دورات وفيديوهات المواد  
-        </p>
-        <a href="firstloginstudent.html"><button class="btn btn-info btn1 m-3">بوابة الطالب </button></a>
-        <br>
-        <button class="btn btn-info btn1">بوابة المدرس </button>
-        
-      
-      </div>
-      <div class="col-md-6 text-center   ">
-        <img src="Digital_agency_site_Img/images/home2.png" alt="" class="img-fluid ">
-      </div>
-    </div>
-    
-  </div>
-  
-</div>
-<img src="Digital_agency_site_Img/images/wave1.png" alt="" class="bottom-img">
-</section>
-<!--HOw to learning-->
-<section dir="rtl" lang="ar" class="process-container py-5 " id="learning">
-<div class="process-blk container ">
-  <div class="row ">
-    <div class="col-md-12 col-lg-7 process-text " >
-      <h2 class="title pb-3">آلية التعلم</h2>
-      <p class="pl-5 text-right textlearn">
-يمكنك استخدام المنصة  عن بعد بكل سهولة ويسر من السنة الأولى وحتى السنة الخامسة، حيث يمكنك اختيار السنة من الصفحة الرئيسية ثم اختيار المادة التعليمية ضمن جدول المحاضرات.
-      </p>
-    </div>
-    <div class="col-md-12 col-lg-7 pt-7">
-      <img src="images/flow (1).png" class="float-lg-start float-sm-end mt-4" width="70%">
-    </div>
-  </div>
-</div>
-</section>
-<!--questoin-->
-<section dir="rtl" lang="ar" class="mt-5" >
-  <h2 class="m-4 text-center textques" id="question">الاسئلة الشائعة</h2>
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         هل جميع السنوات مشمولة ؟
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong class="mx-2">حالياً فقط من السنة الاولى الى الثالثة</strong> 
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          ما آلية عمل المنصة
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>يمكن للطالب الدخول الى بوابة الطالب ومن ثم ادخال رقمه الجامعي و كلمة السرالتي تم اعطائه اياها ومن ثم يصل الى واجهة االمنصة</strong> 
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         كيف سيتم الرجوع للمواد التي تم عرضها على المنصة سابقاً في حال رغب الطالب بمراجعة أي مادة ؟
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>سيتم رفع الدروس بشكل يومي وسيكون المحتوى متاحًا على المنصة. </strong> 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Social media-->
-<section class="bg-dark text-center text-light  text-sm-start py-5 justify-content-center mt-5" id="Social">
-  <div class="container">
-      <div class="row align-items-center justify-content-center">
-          <div class="col-md ">
-              <img src="images/socialmedia.svg" alt="" class="img-fluid w-100 fotimg" width="25%" height="100%">
-          </div>
-
-          <div class="col-md py-1 ">
-          <h2 class="fottext1">Social <span class="text-info">Media</span></h2>
-         <p class="fottext">للاستفسار هذه حساباتنا </p>
-          <div class="dropdown mx-3">
-              <button class="btn btn-info dropdown-toggle  fottext " type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-              Social Media
-              </button>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                <li><a class="dropdown-item active" href="https://twitter.com/mo_abdullah0" > <i class="fa-brands fa-twitter m-1"></i>Twitter</a></li>
-                <li><a class="dropdown-item" href="https://www.instagram.com/mo_abdullah0/" ><i class="fa-brands fa-instagram m-1"></i>Instagram</a></li>
-                <li><a class="dropdown-item" href="http://t.me/techst_bot" ><i class="fa-brands fa-telegram m-1"></i>Telegram</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCtgQEfWELcdyBoVNQWfrIuw" ><i class="fa-brands fa-youtube m-1"></i>You Tube</a></li>
+<body dec="rl">
+    <!--NAvbar-->
+    <section id="Tech">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info  fixed-top ">
+          <div class="container-fluid">
+            <a class="navbar-brand text-black" href="#">Tech Storm</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ms-auto mx-4">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark ss1" aria-current="page" href="#Tech">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss2" href="#select">Choose The Year</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss3" href="#Social">Social media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark ss4" href="login.html">Log In</a>
+                </li>
               </ul>
             </div>
-      </div>
-        </div>
+          </div>
+        </nav>
+    </section>
+
+    <!--End NAVBAR-->
+   
+    <section class="bg-dark text-center text-light   py-5 mt-5 navbar1">
+      <div class="container">
+        <div class="d-flex ">
+  
+        
+          <div class="textbrand">
+              <h1 class="ss33" >Tech  <span class="text-info "> Storm</span>  </h1> 
+              <p class="fottext">On this website, you will find the most important topics for the Faculty of Informatics Engineering</p>
+            <button class="btn btn-info btn1 fottext "><a href="login.html" class="bbtn1">Get Started</a> </button>
+              
+          </div>
+          <img src="images/main.svg" class="a-sm-block img-fluid w-50  imgst1 " alt="">
+      </div> 
+          </div>
+  
+  
          
-          
       </div>
-    
-  </div> 
-      </div>
+  </section>
+<!--MAin-->
+<section class="text-center " id="select">
+    <div class="container my-5 py-5 ">
+       
+        <div class="row ">
+            <div class="col-sm-4 slid1 reveal">
+              <div class="card">
+                <div class="card-body">
+                    <img src="images/select.svg" width="100%" alt="" class="imgst1">
+                  <h5 class="c1 card-title my-3 ss11 ">السنة الاولى</h5>
+                  <p class="card-text btn11">اختر من القائمة في الاسفل ماتريد من هذه السنة </p>
+                  <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle btn11" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        اختر من هنا
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#s1m" >مقررات</a></li>
+                        <li><a class="dropdown-item" href="#s1d" >أسئلة الدورات</a></li>
+                        <li><a class="dropdown-item" href="#s1m">قوائم التشغيل</a></li>
+                        <li><a class="dropdown-item" href="final.html">النتائج</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 slid2 reveal">
+              <div class="card">
+                <div class="card-body">
+                    <img src="images/select.svg" width="100%" alt="" class="imgst2">
+                    <h5 class="card-title my-3 ss22">السنة الثانية </h5>
+                    <p class="card-text btn11">اختر من القائمة في الاسفل ماتريد من هذه السنة </p>
+                    <div class="dropdown">
+                        <button class="btn btn-info dropdown-toggle btn22" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            اختر من هنا
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">مقررات</a></li>
+                            <li><a class="dropdown-item" href="#">أسئلة الدورات</a></li>
+                            <li><a class="dropdown-item" href="#">قوائم التشغيل</a></li>
+                            <li><a class="dropdown-item" href="#">النتائج</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 slid2 reveal">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="images/select.svg" width="100%" alt="" class="imgst3">
+                    <h5 class="card-title my-3 ss33">السنة الثالثة </h5>
+                    <p class="card-text btn11">اختر من القائمة في الاسفل ماتريد من هذه السنة </p>
+                    <div class="dropdown">
+                        <button class="btn btn-info dropdown-toggle btn33" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                          اختر من هنا
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="s3m.html" >مقررات</a></li>
+                          <li><a class="dropdown-item" href="s3d.html" >أسئلة الدورات</a></li>
+                          <li><a class="dropdown-item" href="vedio.html">قوائم التشغيل</a></li>
+                          <li><a class="dropdown-item" href="final.html">النتائج</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+    </div>
+</section>
+<!--Social MEdia-->
 
 
-     
+<!--s1 mok-->
+
+<section id="s1m">
+  <div class="container text-center py-4 ">
+  <h1 >السنة الاولى - مقررات</h1>
   </div>
-</section >
-      <script src="js/bootstrap.bundle.min.js"></script>
+  <div class="row text-center m-1 ">
+  <div class="col-sm-3  py-3 ss33">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+    
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">لغة 1</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/18xsLymOmeFAG2T3hRCKwqGcf3ZqkT68z" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 imgst1">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">فيزياء 1</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/18_A3K0lvrWR3lpuJ0kt01y-r--xVMcBv" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-sm-3  py-3 btn11 ">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">الجبر الخطي</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/file/d/18Zj3VPljOBYQzUqI4ag_nIo1JgYonXDw/view?usp=drivesdk" target="_balnk" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 imgst1">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">تحليل 1</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/185T3Nj5hg_4IwcVUSIiUHMCsRDc6BM9Z" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 ss33">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">لغة 2</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3 py-3 imgst1">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title ">برمجة 2 </h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-sm-3 py-3 btn11">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">اللغة العربية</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-sm-3 py-3 ss33">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">فيزياء 2</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 imgst1">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">تحليل 2 </h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-sm-3  py-3 btn11">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">دارات كهربائية</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/19SZbtNyL25TVMU3I3Ju25t2poH1ZMoQ_" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 imgst1">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">مبادئ عمل الحاسوب</h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/19GMBYEgShWa7H4pLWqaMCCEtPJxtOVUS" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm-3  py-3 ss11">
+  <div class="card">
+  <div class="card-body bg-dark text-light">
+  <img src="images/study1.svg" width="25%" height="50%" alt="">
+  <h5 class="card-title">ثقافة وحضارة </h5>
+  <p class="card-text">اضفط في الاسفل للوصول الى المادة</p>
+  <a href="https://drive.google.com/drive/folders/19-qIhYhVNXGS1jBCa42GKsIkCe1_ZX5K" target="_blank" class="btn btn-info">Go somewhere</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+<!--s1d-->
+
+  <section  id="s1d">
+    <div class="container text-center py-4 ">
+    <h1 >السنة الاولى - أسئلة الدورات</h1>
+    </div>
+    <div class="row text-center m-1">
+    <div class="col-sm-3  py-3 ss11">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt=""> 
+        <h5 class="card-title">برمجة  1</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/13RYQ5wms1oMj1Pj_ohlQb5tJolcvImW9" target="_blank">جميع اسئلة الدورات </a></li>
+    
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-3  py-3 imgst1">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">تحليل 1</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active " href="https://drive.google.com/drive/folders/12ZcejnVLSr10bD__9RVE-c26r-AXyh-E" target="_blank">دورة 2020 عملي ونظري</a></li>
+        
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3  py-3 btn11">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">لغة 2</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/17-cQRkBco8IrBIZsYnCHCsGRulsdbx31" target="_blank">جميع اسئلة لدورات</a></li>
+    
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3 py-3 imgst1">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title ">برمجة 2 </h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/15ruXgy2GhiZCIYNTiRWaLVohBtZ8K0Bl"target="_blank">جميع اسئلة الدورات</a></li>
+    
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-3 py-3 ss33">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">اللغة العربية</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/15Gs_Yc60bJjf-uT_VEZJZTQk3JoTZGFK"target="_blank">جميع اسئلة الدورات</a></li>
+       
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-3 py-3 ss33">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+    <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">فيزياء 2</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/14vlSIjy8_sUAcQs2Ad3oajJRN2TRoM1P" target="_blank">جميع أسئلة الدورات</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3  py-3 fotimg">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+        <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">تحليل 2 </h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            اختر هنا
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/15Gs_Yc60bJjf-uT_VEZJZTQk3JoTZGFK"target="_blank">جميع أسئلة الدورات</a></li>
+           
+        </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-3  py-3 fotimg">
+    <div class="card">
+        <div class="card-body bg-dark text-light">
+            <img src="images/study1.svg" width="25%" height="50%" alt="">
+        <h5 class="card-title">دارات كهربائية</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                اختر هنا
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1764kX96SmbNiRnfpkS0nmK9l1qwl6XYz"target="_blank">جميع اسئلة الدورات</a></li>
+    
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3  py-3 btn11">
+    <div class="card">
+        <div class="card-body bg-dark text-light">
+            <img src="images/study1.svg" width="25%" height="50%" alt="">
+        <h5 class="card-title">مبادئ عمل الحاسوب</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                اختر هنا
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/158Rx7H1NHpQj5Wpok0H7AuOQC2Y0mrPX"target="_blank">جميع أسئلة الدورات</a></li>
+              
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3  py-3 imgst1">
+    <div class="card">
+    <div class="card-body bg-dark text-light">
+        <img src="images/study1.svg" width="25%" height="50%" alt="">
+    <h5 class="card-title">رياضيات متقطعة</h5>
+    <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+    <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            اختر هنا
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/17sXkzi3wsJ7J0VsuPv11eAy_xtyKY7RH" target="_blank">جميع اسئلة الدورات</a></li>
+           
+        </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-3  py-3 btn11">
+        <div class="card">
+            <div class="card-body bg-dark text-light">
+                <img src="images/study1.svg" width="25%" height="50%" alt="">
+            <h5 class="card-title">فيزياء 1</h5>
+            <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+            <div class="dropdown">
+                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    اختر هنا
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1436JsLEtJiYaw_KGLHq_-gtYPxt6qwiv" target="_blank">جميع أسئلة الدورات</a></li>
+                  
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-3  py-3 fotimg">
+        <div class="card">
+        <div class="card-body bg-dark text-light">
+            <img src="images/study1.svg" width="25%" height="50%" alt="">
+        <h5 class="card-title">الجبر الخطي</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                اختر هنا
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/13DD_rGlQ0IPd5HPxQ-O2HPwIsrYVeX15" target="_blank">نظري أولى وثالثة ٢٠٢٠ - أولى ٢٠٢١</a></li>
+               
+            </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!--threeth years-->
+    <section >
+      <div class="container text-center py-4 ">
+      <h1 >السنة الثالثة - مقررات</h1>
+      </div>
+      <div class="row text-center m-1">
+      <div class="col-sm-3  py-3 c1 fotimg">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">هندسة البرمجيات</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1G3Ky_VARxOh-b5p87VlepHHsSAGZeP93" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6kT9PlZoOmQSLDhVLywYABW" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c2 btn11">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">شبكات حاسوبية</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1G0isMGixRyX1QGQQ-pekxZ-XB2KeZlL7" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6mtSqrhG10rCkkwGkc-YcMU" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-sm-3  py-3 c3 imgst1">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">خوارزميات 3</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1Fz32IV2vz-pQ5BRNqEihJz-7mmMmAZo8" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6lPZHImxfjNhbETTd-ytDwe" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c4 ss33">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">اتصالات تشابهية ورقمية</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1GK12-uLwbYwdhl7p6yEYEh7oBeRluv4N" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://youtube.com/playlist?list=PLYLuspkCZ-6mxwB8KcCEsEKVBGMk9b4pp" >  قائمة التشغيل نظري</a></li>
+      <li><a class="dropdown-item " href="https://youtube.com/playlist?list=PLYLuspkCZ-6nATGY-OYSlpXo0onoKzTOL" > قائمة التشغيل عملي</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c5 fotimg">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">بنية وتنظيم حواسيب 1</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1G3ZC1tqFAI5gFQpDqxGP5iQIVVnEs6Qi" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://youtube.com/playlist?list=PLYLuspkCZ-6nXxwFNkuwPsadPK6eDI_Ee" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c6 btn11" >
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">لغات صورية</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1GCQebTVXAmi-IrGyyNvX_7QJP-BGE05L" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6kT9-8aymIUz-cv8xpRzzPY" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-sm-3  py-3 c7 imgst1">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">مبادئ الذكاء الصنعي  </h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1GCjTP2i9VfPv-gnnTwQp8pd78SOWTNeJ" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLAybPhTdK1FznG7TzryxleE6TBUqI-InD" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-sm-3  py-3 c8 ss33">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">خوارزميات 2</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1ELYXdn8AePh4p2bWOULwFRBdfBcl_TSy" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6lLaI8DGNQUiEELlCrpcmsZ" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c9 ss33">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">معالجة اشارة  </h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1F9LHIT6q_wt1-IssOVlbxCUbZX3bBwDI" >محاضرات المادة</a></li>
+      
+      <li><a class="dropdown-item" href="#">قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-sm-3  py-3 c10 fotimg">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">رسوميات حاسوبية </h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1Bbf8nxTmmowMEI_7WYBVDBPqDJ-VEU_D" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6lvnWiZ6BauSyxVRyGuJMvB" >قائمة التشغيل</li></a>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c11 fotimg">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">نظرية المخططات</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/file/d/1FucJ0EKkSvXpSAFrl4i_hJwLWyE5uvTv/view?usp=drivesdk" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6n3p_m896WIvsWRW92m0vNj" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-3  py-3 c12 btn11">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">نظرية المعلومات </h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/19t_6jWyzRXyRYl54kF9Dk2G2Wn9Rk3sm" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6neEsDs9D7VSywq4iNTH96V" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      
+      <div class="col-sm-3  py-3 c13 imgst1">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title">قواعد معطيات 1</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1CjjL1t-c6QLLih4ffl5K9vVDrioCPV40">محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6m4VueM3a2RysT_QJ58_2gB" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="col-sm-3  py-3 c14 ss33">
+      <div class="card">
+      <div class="card-body bg-dark text-light">
+      <img src="images/s3m.svg" width="90%" height="50%" alt="">
+      <h5 class="card-title"> معالج مصغر</h5>
+      <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      اختر هنا
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1CjjL1t-c6QLLih4ffl5K9vVDrioCPV40" >محاضرات المادة</a></li>
+      <li><a class="dropdown-item " href="https://www.youtube.com/playlist?list=PLYLuspkCZ-6mx4c0CN7rxDEtSzlrAi2lL" >قائمة التشغيل</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!--dawrat-->
+      <section class="align-content-center justify-content-center m-5 px-sm-5" >
+        <div class="container text-center py-4  ">
+        <h1 >السنة الثالثة -اسئلة الدورات</h1>
+        </div>
+        <div class="row text-center m-1">
+        <div class="col-sm-4  py-3 ss1 btn11">
+        <div class="card">
+        <div class="card-body bg-dark text-light">
+        <img src="images/s3m.svg" width="90%" height="50%" alt="">
+        <h5 class="card-title">اسئلة دورات 2019</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1Gpq_fYnDbBXttVSz_-B0nb823c2WC-aG" >اسئلة دورات 2019</a></li>
+        
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-4  py-3 ss2 fotimg">
+        <div class="card">
+        <div class="card-body bg-dark text-light">
+        <img src="images/s3m.svg" width="90%" height="50%" alt="">
+        <h5 class="card-title">اسئلة دورات 2022</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1GRrmX91HJSCLfNybAMxe-PfofeDTL6uo" >دورات 2022</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-4  py-3 ss3 imgst1">
+        <div class="card">
+        <div class="card-body bg-dark text-light">
+        <img src="images/s3m.svg" width="90%" height="50%" alt="">
+        <h5 class="card-title">اسئلة دورات 2020</h5>
+        <p class="card-text">اضفط في الاسفل للوصول الى اسئلة المادة</p>
+        <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        اختر هنا
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="https://drive.google.com/drive/folders/1GxJuDCU5G5Zv4uMt2LYAOGoNNr4Hqy89" >دورات 2020</a></li>
+        
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

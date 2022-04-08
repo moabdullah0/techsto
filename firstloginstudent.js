@@ -13,6 +13,6 @@ error2.classList.add("erorrpsunh")
 }
        else if(username.value==388 && password.value==1998 ){
          
-          window.location="index.html"
+          window.location="firstpage.html"
       
         }})
