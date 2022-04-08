@@ -1,5 +1,5 @@
 .navbar1{
-  height: 150%;
+  width: 100%;
 }
 
 
@@ -92,4 +92,9 @@ section .collapse{
     box-shadow: none;
     border: none;
     border-radius: 20px 50px ;
+}
+.bbtn1{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
 }
