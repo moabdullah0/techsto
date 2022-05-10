@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,#3fb8c3,#2f3697);
+}
+.file{
+    border: none;
+}
+section{
+    background-image: linear-gradient(to right,#3fb8c3,#2f3697);
+}
